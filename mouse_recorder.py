@@ -2,6 +2,7 @@ import time
 import threading
 from pynput import mouse, keyboard
 
+events = []
 recording = False
 replaying = False
 start_time = 0
